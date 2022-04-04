@@ -4,6 +4,3 @@ Portifólio criado a partir das aulas no bootcamp transformatec, da parceria ent
 
 Iremos utilizar HTML, CSS e JavaScript.
 
-###Arquivos
-
-- [Formulário](formulario.html)
