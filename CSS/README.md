@@ -2,5 +2,5 @@
 
 ## Arquivos .html
 
-- [Página 1](./CSS/pagina1.html)
-- [Página 2](./CSS/pagina2.html)
+- [Página 1](pagina1.html)
+- [Página 2](pagina2.html)
