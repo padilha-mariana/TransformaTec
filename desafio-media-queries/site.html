@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site responsivo</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            background-color: bisque;
+        }
+        .row::after {
+            content:  " ";
+            clear: both;
+            display: block;
+        }
+        .header{
+            background-color: coral;
+            color: antiquewhite;
+            padding: 20px;
+        }
+        .menu ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .menu li {
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: cornflowerblue;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.);
+        }
+        .aside {
+            background-color:cadetblue;
+        }
+
+
+        html {
+            font-family: "Lucida Sans", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Título do site</h1>
+    </div>
+
+    <div class="row"> </div>
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+    <div class="col-6 color-center">
+        <p>
+            Texto de centro
+        </p>
+    </div>
+
+    <div class="aside">
+        <h2>Titulo 1</h2>
+        <p>texto 1</p>
+        <h2>Titulo 2</h2>
+        <p>texto 2</p>
+        <h2>Titulo 3</h2>
+        <p>texto 3</p>
+        <h2>Titulo 4</h2>
+        <p>texto 4</p>
+
+    <div class="footer"> 
+        Texto do rodapé
+    </div>
+    </>
+</body>
+</html>
