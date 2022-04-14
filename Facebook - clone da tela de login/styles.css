@@ -86,15 +86,16 @@ form input{
 }
 
 .right__loginBtn--hover:hover{
-    background-color: #4257b2
+    background-color: #4257b2;
 }
 
 .right__forget{
     margin: 15px 0;
     text-decoration: none;
-    color: #1877f2;
+    color:#1877f2 ;
     font-family: 'Arial';
     font-size:14px;
+    text-align: center;
 }
 
 .right__sign-up{
